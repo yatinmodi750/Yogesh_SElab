@@ -4,7 +4,8 @@
     font-family: Century Gothic;
 }
 header{    
-    background-image:linear-gradient(rgba(22, 223, 230, 0.5),rgba(0,0,0,0.5)), url("Blue\ Modern\ Colorful\ Illustration\ Medical\ Flyer1.png");
+    background-image:url('hosimage.jpg');
+    background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
 }
@@ -23,18 +24,24 @@ ul li a{
     padding:6px 20px ;
     border: 1px solid ;
     transition: 0.6 ease;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
 }
 ul li a:hover{
     background-color: #fff;
     color: #000;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
 }
 ul li.active a{
     background-color: #fff;
     color: #000;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
 }
 .logo img{
     float: left;
-    width: 400px;
+    width: 200px;
     height: auto;
 }
 .main{
@@ -50,6 +57,8 @@ ul li.active a{
 .title h1{
     color: #fff;
     font-size: 70px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
     
 }
 .button{
@@ -57,6 +66,8 @@ ul li.active a{
     top: 62%;
     left: 50%;
     transform: translate(-50%,-50%);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 .btn{
     border: 1px solid#fff;
@@ -76,6 +87,8 @@ ul.red{
     top: 85%;
     color: #fff;
     transition: 0.6s ease;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 li:hover{
